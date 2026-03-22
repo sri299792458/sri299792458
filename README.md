@@ -1,10 +1,10 @@
 ### Srinivas Kantha Reddy
 
-Robotics M.S. student at the University of Minnesota, with a background in physics and mechanical engineering (BITS Pilani).
+Robotics M.S. student at the **University of Minnesota**, with a background in physics and mechanical engineering (**BITS Pilani**).
 
 Currently in the [RPM Lab](https://rpm-lab.github.io/) working on in-context imitation learning for bimanual manipulation on dual UR5e arms, and building multimodal data collection pipelines with ROS2.
 
-Previously at the Indian Institute of Science, where I trained and deployed RL locomotion policies on a 70 kg custom quadruped.
+Previously at the **Indian Institute of Science** ([Stoch Lab](https://www.stochlab.com/)), where I trained and deployed RL locomotion policies on a 70 kg custom quadruped.
 
 #### Publication
 
