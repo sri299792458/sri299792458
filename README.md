@@ -27,7 +27,6 @@ Previously at the **Indian Institute of Science** ([Stoch Lab](https://www.stoch
 |---------|-------------|
 | [worldvalues-qwen-finetuning](https://github.com/sri299792458/worldvalues-qwen-finetuning) | Data synthesis for LLM fine-tuning on WorldValuesBench with Qwen3 |
 | [isaac-gym-server-gui](https://github.com/sri299792458/isaac-gym-server-gui) | Run Isaac Gym on headless servers with browser-based visualization |
-| [diffusion-sampler-benchmarks](https://github.com/sri299792458/diffusion-sampler-benchmarks) | Benchmarking DDPM, DDIM, DPM-Solver++, and adaptive curvature sampling |
 | [arithmetic-transformer-experiments](https://github.com/sri299792458/arithmetic-transformer-experiments) | Small transformers for elementary arithmetic with abacus embeddings |
 | [planning-optimal-grasps-html-demo](https://github.com/sri299792458/planning-optimal-grasps-html-demo) | Interactive explainer for Ferrari and Canny's 1992 optimal grasp planning |
 | [dangerous-dave-mod](https://github.com/sri299792458/dangerous-dave-mod) | Dangerous Dave on Windows 11 with gameplay cheats via bootstrapped DOSBox |
