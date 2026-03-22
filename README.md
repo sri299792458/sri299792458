@@ -1,10 +1,14 @@
 ### Srinivas Kantha Reddy
 
-Robotics M.S. student at the University of Minnesota. I work on locomotion, manipulation, and robot learning.
+Robotics M.S. student at the University of Minnesota, with a background in physics and mechanical engineering (BITS Pilani).
 
 Currently in the [RPM Lab](https://rpm-lab.github.io/) extending [Instant Policy](https://github.com/NVlabs/instant_policy) to bimanual manipulation on dual UR5e arms, and building multimodal data collection pipelines with ROS2.
 
-Previously at the Indian Institute of Science, where I trained and deployed RL locomotion policies on a 70 kg custom quadruped and co-authored [GRoQ-LoCO](https://arxiv.org/abs/2505.10973).
+Previously at the Indian Institute of Science, where I trained and deployed RL locomotion policies on a 70 kg custom quadruped.
+
+#### Publication
+
+- **GRoQ-LoCO: Generalist Quadruped Locomotion via Offline Datasets** — [arXiv:2505.10973](https://arxiv.org/abs/2505.10973)
 
 #### Selected projects
 
@@ -15,3 +19,5 @@ Previously at the Indian Institute of Science, where I trained and deployed RL l
 | [vlm-grasp](https://github.com/sri299792458/vlm-grasp) | Language-guided grasp detection with fine-tuned Qwen3-VL-8B |
 | [ip (bimanual branch)](https://github.com/sri299792458/ip/tree/bimanual) | Extending Instant Policy to bimanual manipulation with per-arm graph representations |
 | [isaac-gym-server-gui](https://github.com/sri299792458/isaac-gym-server-gui) | Run Isaac Gym on headless servers with browser-based visualization |
+
+kanth042@umn.edu
