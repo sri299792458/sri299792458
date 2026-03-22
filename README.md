@@ -18,7 +18,7 @@ Previously at the **Indian Institute of Science** ([Stoch Lab](https://www.stoch
 | [multimodal-robot-data-collection-pipeline](https://github.com/sri299792458/multimodal-robot-data-collection-pipeline) | ROS2 pipeline recording RGB-D, GelSight, and gripper state on dual UR5e arms |
 | [ip (bimanual branch)](https://github.com/sri299792458/ip/tree/bimanual) | Extending Instant Policy to bimanual manipulation with per-arm graph representations |
 | [vlm-grasp](https://github.com/sri299792458/vlm-grasp) | Language-guided grasp detection with fine-tuned Qwen3-VL-8B |
-| [dream-team](https://github.com/sri299792458/dream-team) | Multi-agent research system with dynamic specialist recruitment and sandboxed execution |
+| [dream-team-research-automation](https://github.com/sri299792458/dream-team-research-automation) | Multi-agent research system with dynamic specialist recruitment and safe code execution |
 | [cv5561-f25-team-asa](https://github.com/sri299792458/cv5561-f25-team-asa) | Class-aware seam carving combining DINOv3, Depth Anything 3, and RGB-VST saliency |
 
 #### Hobby and exploratory
