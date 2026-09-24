@@ -1,34 +1,43 @@
-### Srinivas Kantha Reddy
+# Srinivas Kantha Reddy
 
-Robotics M.S. student at the **University of Minnesota**. Background in physics and mechanical engineering from **BITS Pilani** '25.
+I'm a robotics master's student at the University of Minnesota's [RPM Lab](https://rpm-lab.github.io/), working on robot learning and manipulation.
 
-Currently in the [RPM Lab](https://rpm-lab.github.io/) working on Sim2Real RL for dexterous manipulation, starting with a UR5e arm with a Robotiq 2F-85 gripper and separately exploring Unitree G1 Dex3-1 hands, and building multimodal data collection pipelines with ROS2.
+Before UMN, I worked on quadruped locomotion at [IISc's Stoch Lab](https://www.stochlab.com/). My background is in physics and mechanical engineering from BITS Pilani, India (Class of 2025).
 
-Previously at the **Indian Institute of Science** ([Stoch Lab](https://www.stochlab.com/)), where I trained and deployed RL locomotion policies on a 70 kg custom quadruped.
+I'm looking for opportunities in robotics and machine learning.
 
-#### Publication
+[Email](mailto:kanth042@umn.edu) · [LinkedIn](https://www.linkedin.com/in/sri-k08/) · [Google Scholar](https://scholar.google.com/citations?user=gRlgDrsAAAAJ&hl=en)
 
-- **GRoQ-LoCO: Generalist Quadruped Locomotion via Offline Datasets** — [arXiv:2505.10973](https://arxiv.org/abs/2505.10973)
+## Selected robotics work
 
-#### Research and projects
+### Quadruped locomotion
 
-| Project | What it does |
-|---------|-------------|
-| [Barrier-Loco](https://github.com/sri299792458/Barrier-Loco) | Asymmetric actor-critic with barrier critic for quadruped locomotion on rough terrain |
-| [multimodal-robot-data-collection-pipeline](https://github.com/sri299792458/multimodal-robot-data-collection-pipeline) | ROS2 pipeline recording RGB-D, GelSight, and gripper state on dual UR5e arms |
-| [quest3-bowling-ball-tracking](https://github.com/sri299792458/quest3-bowling-ball-tracking) | Quest 3 mixed-reality bowling trainer with live YOLO/SAM2 ball tracking, lane-calibrated trajectory replay, and shot statistics |
-| [vlm-grasp](https://github.com/sri299792458/vlm-grasp) | Language-guided grasp detection with fine-tuned Qwen3-VL-8B |
-| [dream-team-research-automation](https://github.com/sri299792458/dream-team-research-automation) | Multi-agent research system with dynamic specialist recruitment and safe code execution |
-| [cv5561-f25-team-asa](https://github.com/sri299792458/cv5561-f25-team-asa) | Class-aware seam carving combining DINOv3, Depth Anything 3, and RGB-VST saliency |
+I trained and deployed locomotion policies on a custom 70 kg quadruped at IISc, working through controller integration, sim-to-real failures and field tests on uneven terrain. My [Barrier-Loco implementation](https://github.com/sri299792458/Barrier-Loco) builds on Legged Gym and prior locomotion methods, with separate task and barrier critics.
 
-#### Hobby and exploratory
+I also coauthored **[GRoQ-LoCO: Generalist and Robot-agnostic Quadruped Locomotion Control using Offline Datasets](https://arxiv.org/abs/2505.10973)** (2025).
 
-| Project | What it does |
-|---------|-------------|
-| [worldvalues-qwen-finetuning](https://github.com/sri299792458/worldvalues-qwen-finetuning) | Data synthesis for LLM fine-tuning on WorldValuesBench with Qwen3 |
-| [isaac-gym-server-gui](https://github.com/sri299792458/isaac-gym-server-gui) | Run Isaac Gym with live GUI on headless HPC clusters via VNC |
-| [arithmetic-transformer-experiments](https://github.com/sri299792458/arithmetic-transformer-experiments) | Small transformers for elementary arithmetic with abacus embeddings |
-| [planning-optimal-grasps-html-demo](https://github.com/sri299792458/planning-optimal-grasps-html-demo) | Interactive explainer for Ferrari and Canny's 1992 optimal grasp planning |
-| [dangerous-dave-mod](https://github.com/sri299792458/dangerous-dave-mod) | Dangerous Dave on Windows 11 with gameplay cheats via bootstrapped DOSBox |
+### G1 / Dex3 manipulation
 
-kanth042@umn.edu
+I built a cube-stacking pipeline for the Unitree G1 with Dex3 hands, demonstrated on the physical robot. It integrates camera calibration and object pose estimation with offline GraspGenX grasp qualification, CuRobo motion planning, robot control and recovery, and episode recording.
+
+[Demonstration and guide](https://sri299792458.github.io/g1-research-docs/manipulation/tasks.html)
+
+### Robot-learning data infrastructure
+
+I developed a [data pipeline around SPARK](https://github.com/sri299792458/spark-data-collection/tree/main/data_pipeline) to record robot demonstrations and convert them into LeRobot datasets. It captures RGB-D, tactile and robot-state streams through ROS 2, with session metadata and a Qt console for configuring sensors and controlling recordings.
+
+[Setup and design guide](https://rpm-lab-umn.github.io/spark-data-collection/)
+
+## ML and vision
+
+The VLM, LLM and image-retargeting projects below were developed through graduate coursework.
+
+| Project | Work |
+| --- | --- |
+| [Quest 3 bowling tracking](https://github.com/sri299792458/quest3-bowling-ball-tracking) | Mixed-reality bowling analysis combining headset video streaming, YOLO/SAM2 tracking, calibrated trajectory reconstruction, and shot statistics and replay in the headset. |
+| [Language-guided grasp detection](https://github.com/sri299792458/vlm-grasp) | Grasp prediction from images and language using Qwen3-VL-8B, LoRA fine-tuning and constrained decoding, evaluated on OCID-VLG. |
+| [Dream Team](https://github.com/sri299792458/dream-team-research-automation) | Research agents that recruit specialists, execute code, recover from failed steps and record experiments. |
+| [WorldValuesBench](https://github.com/sri299792458/worldvalues-qwen-finetuning) | Qwen3 fine-tuning experiments on survey-response prediction, comparing direct supervision with synthetic reasoning data. |
+| [Class-aware image retargeting](https://github.com/sri299792458/cv5561-f25-team-asa) | Team project for content-aware image resizing, using composition, depth and saliency models to guide seam carving. |
+
+Other work: [Isaac Gym on remote GPU servers](https://github.com/sri299792458/isaac-gym-server-gui), [diffusion sampler comparisons](https://github.com/sri299792458/diffusion-sampler-benchmarks), and an [interactive grasp-planning explainer](https://github.com/sri299792458/planning-optimal-grasps-html-demo).
