@@ -24,7 +24,7 @@ I built a cube-stacking pipeline for the Unitree G1 humanoid with Dex3 hands, de
 
 ### Robot-learning data infrastructure
 
-I developed a [data pipeline around SPARK](https://github.com/sri299792458/spark-data-collection/tree/main/data_pipeline) to record robot demonstrations and convert them into LeRobot datasets. It captures RGB-D, tactile and robot-state streams through ROS 2, with session metadata and a Qt console for configuring sensors and controlling recordings.
+I developed a data pipeline around SPARK to record robot demonstrations and convert them into LeRobot datasets. It captures RGB-D, tactile and robot-state streams through ROS 2, with session metadata and a Qt console for configuring sensors and controlling recordings.
 
 [Setup and design guide](https://rpm-lab-umn.github.io/spark-data-collection/)
 
