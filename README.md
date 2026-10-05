@@ -30,7 +30,7 @@ I developed a [data pipeline around SPARK](https://github.com/sri299792458/spark
 
 ### Sim-to-real manipulation (ongoing)
 
-I'm adapting UW Lab's [OmniReset](https://uw-lab.github.io/UWLab/main/source/publications/omnireset/index.html) to our lab's UR5e arm. I identified joint dynamics from hardware measurements and used the fitted model to train PPO manipulation policies in simulation. Real-robot policy deployment is in progress.
+I'm adapting UW Lab's OmniReset to our lab's UR5e arm. I identified joint dynamics from hardware measurements and used the fitted model to train PPO manipulation policies in simulation. Real-robot policy deployment is in progress.
 
 [Implementation and progress](https://github.com/sri299792458/UWLab/tree/main)
 
