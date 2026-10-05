@@ -2,7 +2,7 @@
 
 I'm a robotics master's student at the University of Minnesota's [RPM Lab](https://rpm-lab.github.io/), working on robot learning and manipulation.
 
-Before UMN, I worked on quadruped locomotion at [IISc's Stoch Lab](https://www.stochlab.com/). My background is in physics and mechanical engineering from BITS Pilani, India (Class of 2025).
+Before UMN, I worked on quadruped locomotion in the [Stoch Lab](https://www.stochlab.com/) at the Indian Institute of Science (IISc). My background is in physics and mechanical engineering from BITS Pilani, India (Class of 2025).
 
 I'm looking for opportunities in robotics and machine learning.
 
@@ -18,7 +18,7 @@ I also coauthored **[GRoQ-LoCO: Generalist and Robot-agnostic Quadruped Locomoti
 
 ### G1 / Dex3 manipulation
 
-I built a cube-stacking pipeline for the Unitree G1 with Dex3 hands, demonstrated on the physical robot. It integrates camera calibration and object pose estimation with offline GraspGenX grasp qualification, CuRobo motion planning, robot control and recovery, and episode recording.
+I built a cube-stacking pipeline for the Unitree G1 humanoid with Dex3 hands, demonstrated on the physical robot. It integrates camera calibration and object pose estimation with offline GraspGenX grasp qualification, CuRobo motion planning, robot control and recovery, and episode recording.
 
 [Demonstration and guide](https://sri299792458.github.io/g1-research-docs/manipulation/tasks.html)
 
@@ -27,6 +27,12 @@ I built a cube-stacking pipeline for the Unitree G1 with Dex3 hands, demonstrate
 I developed a [data pipeline around SPARK](https://github.com/sri299792458/spark-data-collection/tree/main/data_pipeline) to record robot demonstrations and convert them into LeRobot datasets. It captures RGB-D, tactile and robot-state streams through ROS 2, with session metadata and a Qt console for configuring sensors and controlling recordings.
 
 [Setup and design guide](https://rpm-lab-umn.github.io/spark-data-collection/)
+
+### Sim-to-real manipulation (ongoing)
+
+I'm adapting UW Lab's [OmniReset](https://uw-lab.github.io/UWLab/main/source/publications/omnireset/index.html) to our lab's UR5e arm. I identified joint dynamics from hardware measurements and used the fitted model to train PPO manipulation policies in simulation. Real-robot policy deployment is in progress.
+
+[Implementation and progress](https://github.com/sri299792458/UWLab/tree/main)
 
 ## ML and vision
 
